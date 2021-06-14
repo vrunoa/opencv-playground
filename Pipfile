@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[flake8]
+# This doesnt seem to be working anymore, seeting length as arg
+max-line-length = 125
+ignore = "E901"
+
+[packages]
+opencv-python = ">=4.5"
+
+[requires]
+python_version = "3.7.10"
+
